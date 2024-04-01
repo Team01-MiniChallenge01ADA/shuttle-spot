@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFBD291F2BBA8E5700807F9C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EFBD291E2BBA8E5700807F9C /* .gitignore */; };
 		5721FD332BBA86A1001283FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5721FD322BBA86A1001283FC /* GoogleService-Info.plist */; };
 		5721FD342BBA86A1001283FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5721FD322BBA86A1001283FC /* GoogleService-Info.plist */; };
 		5721FD352BBA86A1001283FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5721FD322BBA86A1001283FC /* GoogleService-Info.plist */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EFBD291E2BBA8E5700807F9C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5721FD322BBA86A1001283FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EFFCD8C42BB2C9B400B4B70B /* shuttle-spot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shuttle-spot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFFCD8C72BB2C9B400B4B70B /* shuttle_spotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shuttle_spotApp.swift; sourceTree = "<group>"; };
@@ -85,9 +87,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EFA8C7E42BB55F5C00B35F90 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
 		EFFCD8BB2BB2C9B400B4B70B = {
 			isa = PBXGroup;
 			children = (
+				EFBD291E2BBA8E5700807F9C /* .gitignore */,
 				EFFCD8C62BB2C9B400B4B70B /* shuttle-spot */,
 				EFFCD8D72BB2C9B500B4B70B /* shuttle-spotTests */,
 				EFFCD8E12BB2C9B500B4B70B /* shuttle-spotUITests */,
@@ -108,6 +118,7 @@
 		EFFCD8C62BB2C9B400B4B70B /* shuttle-spot */ = {
 			isa = PBXGroup;
 			children = (
+				EFA8C7E42BB55F5C00B35F90 /* pages */,
 				5721FD322BBA86A1001283FC /* GoogleService-Info.plist */,
 				EFFCD8C72BB2C9B400B4B70B /* shuttle_spotApp.swift */,
 				EFFCD8C92BB2C9B400B4B70B /* ContentView.swift */,
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFFCD8CF2BB2C9B500B4B70B /* Preview Assets.xcassets in Resources */,
+				EFBD291F2BBA8E5700807F9C /* .gitignore in Resources */,
 				EFFCD8CC2BB2C9B500B4B70B /* Assets.xcassets in Resources */,
 				5721FD332BBA86A1001283FC /* GoogleService-Info.plist in Resources */,
 			);
