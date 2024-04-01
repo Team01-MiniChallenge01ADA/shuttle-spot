@@ -71,6 +71,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EFA8C7E42BB55F5C00B35F90 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
 		EFFCD8BB2BB2C9B400B4B70B = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +101,7 @@
 		EFFCD8C62BB2C9B400B4B70B /* shuttle-spot */ = {
 			isa = PBXGroup;
 			children = (
+				EFA8C7E42BB55F5C00B35F90 /* pages */,
 				EFFCD8C72BB2C9B400B4B70B /* shuttle_spotApp.swift */,
 				EFFCD8C92BB2C9B400B4B70B /* ContentView.swift */,
 				EFFCD8CB2BB2C9B500B4B70B /* Assets.xcassets */,
