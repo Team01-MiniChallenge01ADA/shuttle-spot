@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct HomePage : View {
+    var body: some View {
+        Text("Home")
+    }
+}

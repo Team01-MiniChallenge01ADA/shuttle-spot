@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct ChatPage : View {
+    var body: some View {
+        Text("Chat")
+    }
+}
