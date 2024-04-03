@@ -10,6 +10,17 @@ import SwiftUI
 
 struct ChatPage : View {
     var body: some View {
-        Text("Chat")
+        GeometryReader{geometry in
+            ScrollView{
+                Spacer().frame(height: geometry.size.height / 100 * 10)
+                ChatCardComponent()
+            }
+        }.ignoresSafeArea()
+    }
+}
+
+struct ChatPagePreviews_Previews: PreviewProvider {
+    static var previews: some View {
+        ChatPage()
     }
 }

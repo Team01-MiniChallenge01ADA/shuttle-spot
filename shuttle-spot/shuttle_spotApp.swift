@@ -25,7 +25,7 @@ struct shuttle_spotApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack(path: $router.navPath){
-                TabPage()
+                ChatDetailPage(viewModel: ChatViewModel())
                     .navigationDestination(for: Router.Destination.self){ destination in
                         switch destination{
                             case .tab:

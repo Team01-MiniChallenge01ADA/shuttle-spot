@@ -1,5 +1,5 @@
 //
-//  LoginView.swift
+//  ResetPasswordView.swift
 //  SmashFinal
 //
 //  Created by Valentinus Kenji on 03/04/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoginPage: View {
+struct ResetPasswordPage: View {
     @State private var email = ""
     @State private var password = ""
     
@@ -25,34 +25,26 @@ struct LoginPage: View {
                     //formfields
                     VStack(spacing: 12 ){
                         HStack{
-                            Text("Sign In")
+                            Text("Reset Password")
                                 .multilineTextAlignment(.leading)
                             Spacer()
                         }
                         InputView(text: $email, title: "Email Address", placeholder: "abc123@example.com")
                             .autocapitalization(.none)
                         
-                        InputView(text: $password, title: "Password", placeholder: "Enter Your Password",
-                        isSecureField: true)
-                        HStack{
-                            ToggleView()
-
-                            Spacer()
-                            NavigationLink{
-                                ResetPasswordPage()
-                            } label:{
-                                Text("Forgot Your Password?")
-                            }.font(.footnote)
-
+                       
                         
-                        }
                     }.padding(.horizontal)
                         .padding(.top, 12)
+                        
+                    //senButton
+                    
+                   
                         Button{
-                            print("Log User In")
+                            print("")
                         } label: {
                             HStack{
-                                Text("SIGN IN")
+                                Text("SEND")
                                     .fontWeight(.semibold)
                                 Image(systemName: "arrow.right")
                                 
@@ -70,27 +62,12 @@ struct LoginPage: View {
                   
                         
                         Spacer()
-                    //signUpButton
                 
-                NavigationLink{
-                    RegisterPage()
-                } label:{
-                    HStack{
-                        Text("Don’t have an account?")
-                        Text("Sign up")
-                            .fontWeight(.bold)
-                    }
-                    
-                }.font(.footnote)
+                
+            
 
                 
                 }
             }
         }
     }
-
-struct LoginPage_Previews: PreviewProvider{
-    static var previews: some View {
-        LoginPage()
-    }
-}
