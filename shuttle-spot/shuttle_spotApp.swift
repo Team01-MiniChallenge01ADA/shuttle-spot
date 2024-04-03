@@ -20,10 +20,13 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 @main
 struct shuttle_spotApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @ObservedObject var router = Router()
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack(path: $router.navPath){
+            
+            }
         }
     }
 }
