@@ -8,6 +8,9 @@ App to detect nearest badminton court and providing accurate information
 so user can easily search, obtaining accurate information based on his needs, 
 and accurately locate the badminton court.
 
+## Prototype
+[View in Figma](https://www.figma.com/file/qNzVAUi899j81vMSzJOGqT/Smash?type=design&node-id=207%3A1861&mode=design&t=NJckSLTsVwDeMqCr-1) 📱
+
 ## Built With
 - Figma
 - SwiftUI
