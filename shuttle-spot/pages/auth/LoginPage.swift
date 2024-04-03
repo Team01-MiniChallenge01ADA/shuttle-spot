@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct LoginPage : View {
+    var body: some View {
+        Text("Login")
+    }
+}

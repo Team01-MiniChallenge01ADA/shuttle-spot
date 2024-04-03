@@ -25,8 +25,30 @@ struct shuttle_spotApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack(path: $router.navPath){
-            
-            }
+                TabPage()
+                    .navigationDestination(for: Router.Destination.self){ destination in
+                        switch destination{
+                            case .tab:
+                                TabPage()
+                                .navigationBarBackButtonHidden()
+                        
+                            case .login:
+                                LoginPage()
+                                .navigationBarBackButtonHidden()
+                            
+                            case .register:
+                                RegisterPage()
+                                .navigationBarBackButtonHidden()
+                        }
+                    }
+            }.environmentObject(router)
         }
     }
 }
+
+struct AppPreviews_Previews: PreviewProvider {
+    static var previews: some View {
+        TabPage()
+    }
+}
+

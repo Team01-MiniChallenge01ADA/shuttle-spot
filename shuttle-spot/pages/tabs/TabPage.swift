@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 struct TabPage : View {
+    @EnvironmentObject var router: Router
     var body: some View {
         TabView{
             HomePage()

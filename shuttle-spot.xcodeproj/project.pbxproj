@@ -10,6 +10,10 @@
 		5721FD332BBA86A1001283FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5721FD322BBA86A1001283FC /* GoogleService-Info.plist */; };
 		5721FD342BBA86A1001283FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5721FD322BBA86A1001283FC /* GoogleService-Info.plist */; };
 		5721FD352BBA86A1001283FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5721FD322BBA86A1001283FC /* GoogleService-Info.plist */; };
+		EFAE344A2BBD2E730015337B /* FilterComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE34492BBD2E730015337B /* FilterComponent.swift */; };
+		EFAE344C2BBD33940015337B /* CourtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE344B2BBD33940015337B /* CourtModel.swift */; };
+		EFAE344E2BBD43780015337B /* CourtCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE344D2BBD43780015337B /* CourtCardComponent.swift */; };
+		EFAE34502BBDB2210015337B /* CourtDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE344F2BBDB2210015337B /* CourtDetailPage.swift */; };
 		EFBD291F2BBA8E5700807F9C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EFBD291E2BBA8E5700807F9C /* .gitignore */; };
 		EFC08C172BBBDCA200BA9977 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EFC08C162BBBDCA200BA9977 /* FirebaseAuth */; };
 		EFC08C192BBBDCA200BA9977 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EFC08C182BBBDCA200BA9977 /* FirebaseAuthCombine-Community */; };
@@ -21,6 +25,9 @@
 		EFC08C342BBBE08E00BA9977 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC08C332BBBE08E00BA9977 /* HomePage.swift */; };
 		EFC08C362BBBE09600BA9977 /* ChatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC08C352BBBE09600BA9977 /* ChatPage.swift */; };
 		EFC08C382BBBE09C00BA9977 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC08C372BBBE09C00BA9977 /* ProfilePage.swift */; };
+		EFC08C3C2BBBF7A700BA9977 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC08C3B2BBBF7A700BA9977 /* LoginPage.swift */; };
+		EFC08C3E2BBBF7AF00BA9977 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC08C3D2BBBF7AF00BA9977 /* RegisterPage.swift */; };
+		EFC4DE072BBDB6C500779CF6 /* response.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC4DE062BBDB6C500779CF6 /* response.swift */; };
 		EFFCD8C82BB2C9B400B4B70B /* shuttle_spotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFCD8C72BB2C9B400B4B70B /* shuttle_spotApp.swift */; };
 		EFFCD8CC2BB2C9B500B4B70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFCD8CB2BB2C9B500B4B70B /* Assets.xcassets */; };
 		EFFCD8CF2BB2C9B500B4B70B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFCD8CE2BB2C9B500B4B70B /* Preview Assets.xcassets */; };
@@ -48,12 +55,19 @@
 
 /* Begin PBXFileReference section */
 		5721FD322BBA86A1001283FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "/Users/dasontiovino/Documents/Programming/Mobile/Swift/shuttle-spot/shuttle-spot/GoogleService-Info.plist"; sourceTree = "<absolute>"; };
+		EFAE34492BBD2E730015337B /* FilterComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterComponent.swift; sourceTree = "<group>"; };
+		EFAE344B2BBD33940015337B /* CourtModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtModel.swift; sourceTree = "<group>"; };
+		EFAE344D2BBD43780015337B /* CourtCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtCardComponent.swift; sourceTree = "<group>"; };
+		EFAE344F2BBDB2210015337B /* CourtDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtDetailPage.swift; sourceTree = "<group>"; };
 		EFBD291E2BBA8E5700807F9C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		EFC08C2A2BBBDE8D00BA9977 /* router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = router.swift; sourceTree = "<group>"; };
 		EFC08C312BBBE08200BA9977 /* TabPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPage.swift; sourceTree = "<group>"; };
 		EFC08C332BBBE08E00BA9977 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		EFC08C352BBBE09600BA9977 /* ChatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPage.swift; sourceTree = "<group>"; };
 		EFC08C372BBBE09C00BA9977 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		EFC08C3B2BBBF7A700BA9977 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		EFC08C3D2BBBF7AF00BA9977 /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
+		EFC4DE062BBDB6C500779CF6 /* response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = response.swift; sourceTree = "<group>"; };
 		EFFCD8C42BB2C9B400B4B70B /* shuttle-spot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shuttle-spot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFFCD8C72BB2C9B400B4B70B /* shuttle_spotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shuttle_spotApp.swift; sourceTree = "<group>"; };
 		EFFCD8CB2BB2C9B500B4B70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,6 +125,15 @@
 			path = pages;
 			sourceTree = "<group>";
 		};
+		EFAE34482BBD2E650015337B /* components */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE34492BBD2E730015337B /* FilterComponent.swift */,
+				EFAE344D2BBD43780015337B /* CourtCardComponent.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		EFC08C282BBBDE5A00BA9977 /* core */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				EFC08C2A2BBBDE8D00BA9977 /* router.swift */,
+				EFC4DE062BBDB6C500779CF6 /* response.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -141,6 +165,8 @@
 		EFC08C2D2BBBE06000BA9977 /* auth */ = {
 			isa = PBXGroup;
 			children = (
+				EFC08C3B2BBBF7A700BA9977 /* LoginPage.swift */,
+				EFC08C3D2BBBF7AF00BA9977 /* RegisterPage.swift */,
 			);
 			path = auth;
 			sourceTree = "<group>";
@@ -148,7 +174,9 @@
 		EFC08C2E2BBBE06A00BA9977 /* home */ = {
 			isa = PBXGroup;
 			children = (
+				EFAE34482BBD2E650015337B /* components */,
 				EFC08C332BBBE08E00BA9977 /* HomePage.swift */,
+				EFAE344F2BBDB2210015337B /* CourtDetailPage.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -167,6 +195,14 @@
 				EFC08C372BBBE09C00BA9977 /* ProfilePage.swift */,
 			);
 			path = profile;
+			sourceTree = "<group>";
+		};
+		EFC08C412BBC021C00BA9977 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE344B2BBD33940015337B /* CourtModel.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 		EFFCD8BB2BB2C9B400B4B70B = {
@@ -195,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				EFC08C282BBBDE5A00BA9977 /* core */,
+				EFC08C412BBC021C00BA9977 /* models */,
 				EFA8C7E42BB55F5C00B35F90 /* pages */,
 				EFFCD8C72BB2C9B400B4B70B /* shuttle_spotApp.swift */,
 				5721FD322BBA86A1001283FC /* GoogleService-Info.plist */,
@@ -378,11 +415,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC08C382BBBE09C00BA9977 /* ProfilePage.swift in Sources */,
+				EFAE34502BBDB2210015337B /* CourtDetailPage.swift in Sources */,
 				EFC08C322BBBE08200BA9977 /* TabPage.swift in Sources */,
+				EFAE344A2BBD2E730015337B /* FilterComponent.swift in Sources */,
 				EFFCD8C82BB2C9B400B4B70B /* shuttle_spotApp.swift in Sources */,
 				EFC08C2B2BBBDE8D00BA9977 /* router.swift in Sources */,
+				EFAE344E2BBD43780015337B /* CourtCardComponent.swift in Sources */,
+				EFC4DE072BBDB6C500779CF6 /* response.swift in Sources */,
+				EFC08C3C2BBBF7A700BA9977 /* LoginPage.swift in Sources */,
 				EFC08C342BBBE08E00BA9977 /* HomePage.swift in Sources */,
+				EFAE344C2BBD33940015337B /* CourtModel.swift in Sources */,
 				EFC08C362BBBE09600BA9977 /* ChatPage.swift in Sources */,
+				EFC08C3E2BBBF7AF00BA9977 /* RegisterPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

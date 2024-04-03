@@ -6,3 +6,15 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct CourtDetailPage : View {
+    var detail: CourtModel
+    
+    var body: some View {
+        VStack{
+            
+        }
+    }
+}
+
