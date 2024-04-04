@@ -14,6 +14,8 @@ struct ChatPage : View {
             ScrollView{
                 Spacer().frame(height: geometry.size.height / 100 * 10)
                 ChatCardComponent()
+                ChatCardComponent()
+                ChatCardComponent()
             }
         }.ignoresSafeArea()
     }
